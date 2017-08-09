@@ -63,6 +63,8 @@ namespace ShopDiaryProjectV1.Services
                 new KeyValuePair<string, string>("Price", data.Price.ToString()),             
                 new KeyValuePair<string, string>("ProductId", data.ProductId.ToString()),
                 new KeyValuePair<string, string>("StorageId", data.StorageId.ToString()),
+                new KeyValuePair<string, string>("IsDeleted", false.ToString()),
+                new KeyValuePair<string, string>("IsConsumed", false.ToString()),
 
             });
 
@@ -70,6 +72,24 @@ namespace ShopDiaryProjectV1.Services
             {
 
                 HttpResponseMessage resp = client.PostAsync(UrlHelper.Inventories_Url + @"/PostInventory", content).Result;
+                Inventory t = JsonConvert.DeserializeObject<Inventory>(resp.Content.ReadAsStringAsync().Result);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+        public bool ConsumeInv(Guid id, Inventory data)
+        {
+            var content = new FormUrlEncodedContent(new[]
+            {
+                new KeyValuePair<string, string>("IsConsumed", true.ToString()),
+            });
+
+            try
+            {
+                HttpResponseMessage resp = client.PutAsync(UrlHelper.Inventories_Url + @"/PutInventory/" + id, content).Result;
                 Inventory t = JsonConvert.DeserializeObject<Inventory>(resp.Content.ReadAsStringAsync().Result);
                 return true;
             }

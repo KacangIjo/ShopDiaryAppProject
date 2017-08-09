@@ -11,7 +11,8 @@ namespace ShopDiaryProject.Domain.ViewModels
     {
         public int Quantity { get; set; }
         public DateTime ExpirationDate { get; set; }
-
+        public string ItemName { get; set; }
+        public bool IsConsumed { get; set; }
         public decimal Price { get; set; }
 
         public Guid StorageId { get; set; }
@@ -20,6 +21,9 @@ namespace ShopDiaryProject.Domain.ViewModels
         {
             return new Inventory
             {
+                ItemName=this.ItemName,
+                IsConsumed=this.IsConsumed,
+                IsDeleted=this.IsDeleted,
                 StorageId=this.StorageId,
                 Quantity = this.Quantity,
                 ExpirationDate = this.ExpirationDate,
@@ -37,7 +41,10 @@ namespace ShopDiaryProject.Domain.ViewModels
                 this.ExpirationDate = i.ExpirationDate;
                 this.Price = Price;
                 this.Id = i.Id;
+                this.ItemName = i.ItemName;
                 this.StorageId = i.StorageId;
+                this.IsDeleted = i.IsDeleted;
+                this.IsConsumed = i.IsConsumed;
                
             }
         }

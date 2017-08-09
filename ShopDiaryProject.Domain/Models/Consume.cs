@@ -13,6 +13,8 @@ namespace ShopDiaryProject.Domain.Models
         public int Quantity { get; set; }
         public Decimal Price { get; set; }
 
+        public Boolean IsConsumed { get; set; }
+
         public Guid InventoryId { get; set; }
         public Inventory Inventory { get; set; }
         

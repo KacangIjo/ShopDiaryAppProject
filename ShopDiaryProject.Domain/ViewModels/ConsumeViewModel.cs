@@ -11,7 +11,7 @@ namespace ShopDiaryProject.Domain.ViewModels
     {
         public DateTime DateConsumed { get; set; }
         public int Quantity { get; set; }
- 
+        public bool IsConsumed { get; set; }
         public Guid InventoryId { get; set; }
         //public Inventory Inventory { get; set; }
 
@@ -21,6 +21,7 @@ namespace ShopDiaryProject.Domain.ViewModels
             {
                 InventoryId=this.InventoryId,
                 DateConsumed = this.DateConsumed,
+                IsConsumed=this.IsConsumed,
                 Id = this.Id == Guid.Empty ? Guid.NewGuid() : this.Id
             };
         }
@@ -29,6 +30,7 @@ namespace ShopDiaryProject.Domain.ViewModels
         {
             this.InventoryId = c.InventoryId;
             this.DateConsumed = c.DateConsumed;
+            this.IsConsumed = c.IsConsumed;
             this.Id = c.Id;
         }
     }

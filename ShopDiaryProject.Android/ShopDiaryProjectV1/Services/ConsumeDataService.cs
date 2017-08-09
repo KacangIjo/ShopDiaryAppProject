@@ -58,6 +58,7 @@ namespace ShopDiaryProjectV1.Services
                 new KeyValuePair<string, string>("DateConsumed", data.DateConsumed.ToString()),
                 new KeyValuePair<string, string>("Qty", data.Quantity.ToString()),
                 new KeyValuePair<string, string>("InventoryId", data.InventoryId.ToString()),
+                new KeyValuePair<string, string>("isConsumed",true.ToString())
 
             });
 

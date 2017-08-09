@@ -107,6 +107,8 @@ namespace ShopDiaryProjectV1
             mProgressDialog = ProgressDialog.Show(this, "Please wait...", "Getting Storage data...", true);
             this.mCategories = new List<CategoryViewModel>();
             this.mCategories = await mCategoryDataService.GetAll();
+            this.mCategories.OrderBy(o => o.Name).ToList();
+            
             if (mCategories != null)
             {
                 this.mCategoryAdapter = new CategoryRecyclerAdapter(this.mCategories, this);

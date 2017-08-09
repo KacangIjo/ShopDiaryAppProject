@@ -10,9 +10,9 @@ namespace ShopDiaryProject.Domain.Models
     {
         public int Quantity { get; set; }
         public DateTime ExpirationDate { get; set; }
-
+        public string ItemName { get; set; }
         public decimal Price { get; set; }
-
+        public bool IsConsumed { get; set; }
         public Guid StorageId { get; set; }
         public Storage Storage { get; set; }
         public Guid ProductId { get; set; }
