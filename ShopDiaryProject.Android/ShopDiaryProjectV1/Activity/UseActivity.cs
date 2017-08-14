@@ -31,6 +31,8 @@ namespace ShopDiaryProjectV1
         public List<ProductViewModel> mProducts;
         public List<StorageViewModel> mStorages;
         public List<CategoryViewModel> mCategories;
+        public List<InventoryViewModel> mTempInventories = new List<InventoryViewModel>(); 
+        public List<InventoryViewModel> inventoriesForSearch = new List<InventoryViewModel>();
 
         public InventoryViewModel mInventory;
         public ProductViewModel mProduct;
@@ -45,8 +47,9 @@ namespace ShopDiaryProjectV1
         private readonly StorageDataService mStorageDataService;
         private readonly ConsumeDataService mConsumeDataService;
 
+        private EditText mSearchBox;
+        private Button mButtonSearch;
         private Spinner mSpinnerStorages;
-        private Spinner mSpinnerCategories;
         private ImageButton mButtonBack;
         private Button mButtonUse;
         private Button mButtonDelete;
@@ -83,9 +86,10 @@ namespace ShopDiaryProjectV1
             this.mTextSelectedItem = FindViewById<TextView>(Resource.Id.textViewUseSelectedItem);
             this.mListViewInventory = this.FindViewById<RecyclerView>(Resource.Id.recyclerViewUse);
             this.mListViewInventory.SetLayoutManager(new LinearLayoutManager(this));
-            this.mSpinnerCategories = FindViewById<Spinner>(Resource.Id.spinnerUseCategorySelected);
             this.mSpinnerStorages = FindViewById<Spinner>(Resource.Id.spinnerUseStorageSelected);
             this.mButtonBack = FindViewById<ImageButton>(Resource.Id.btnUseBack);
+            this.mButtonSearch = FindViewById<Button>(Resource.Id.buttonSearchUse);
+            this.mSearchBox = FindViewById<EditText>(Resource.Id.searchBoxUse);
 
             LoadAdapterData();
             LoadItemData();
@@ -107,7 +111,6 @@ namespace ShopDiaryProjectV1
                     {
 
                         var isAdded = mConsumeDataService.Add(newLoc);
-                        var isDeleted = mInventoryDataService.Delete(mInventory.Id);
                         RunOnUiThread(() => progressDialog.Hide());
 
                         if (isAdded)
@@ -155,18 +158,29 @@ namespace ShopDiaryProjectV1
                     Intent nextActivity = new Intent(this, typeof(PageMainActivity));
                     StartActivity(nextActivity);
             };
+            mButtonSearch.Click += (object sender, EventArgs args) =>
+             {
+                 inventoriesForSearch.Clear();
+                 SearchItem();
+             };
             
         }
-
+        private void SearchItem()
+        {
+            for (int i = 0; i < mTempInventories.Count(); i++)
+            {
+                if (mTempInventories[i].ItemName.StartsWith(mSearchBox.Text))
+                {
+                    inventoriesForSearch.Add(mTempInventories[i]);
+                }
+            }
+            this.mInventoryAdapterByStorage = new InventoryRecycleAdapterByStorage(this.mStorage.Id, this.inventoriesForSearch, this.mProducts, this);
+            this.mInventoryAdapterByStorage.ItemClick += OnInventoryClick;
+            this.mListViewInventory.SetAdapter(this.mInventoryAdapterByStorage);
+        }
         private async void LoadItemData()
         {
             mProgressDialog = ProgressDialog.Show(this, "Please wait...", "Getting data...", true);
-
-            //Spinner Adapter Category
-            this.mCategories = await mCategoryDataService.GetAll();
-            var adapterCategories = new SpinnerCategoryAdapter(this, mCategories);
-            mSpinnerCategories.Adapter = adapterCategories;
-            mSpinnerCategories.ItemSelected += SpinnerCategory_ItemSelected;
 
             //Spinner Adapter Storage
             this.mStorages = await mStorageDataService.GetAll();
@@ -180,10 +194,17 @@ namespace ShopDiaryProjectV1
         private async void LoadAdapterData()
         {
             this.mInventories = await mInventoryDataService.GetAll();
-            mInventories.Count();
             this.mProducts = await mProductDataService.GetAll();
-            //this.mInventories = mInventories.OrderBy(e => e.ItemName).ToList();
-            this.mInventories = mInventories.OrderByDescending(e => e.ItemName).ToList();
+            mProducts.Count();
+            //for(int i=0;i< mInventoriesTemp.Count();i++)
+            //{
+            //    if(mInventoriesTemp[i].IsDeleted && mInventoriesTemp[i].IsConsumed==false)
+            //    {
+            //        mInventories.Add(mInventoriesTemp[i]);
+            //    }
+            //}
+
+            this.mInventories = mInventories.OrderBy(e => e.ItemName).ToList();
         }
 
 
@@ -217,41 +238,40 @@ namespace ShopDiaryProjectV1
         private void OnInventoryClick(object sender, int e)
         {
             mSelectedItem = e;
-        
-            mProducts.Count();
-            for(int i=0; i > mProducts.Count();i++)
-            {
-                if(mProducts[i].Id == mInventories[mSelectedItem].ProductId)
-                {
-                    mTextSelectedItem.Text = mProducts[i].Name;
-                }
-            }
-            mInventory = mInventories[e];
+            //mProducts.Count();
+            //for(int i=0; i > mProducts.Count();i++)
+            //{
+            //    if(mProducts[i].Id == mInventories[mSelectedItem].ProductId)
+            //    {
+            //        mTextSelectedItem.Text = mProducts[i].Name;
+            //    }
+            //}
+            mTextSelectedItem.Text = mTempInventories[e].ItemName;
+            mInventory = mTempInventories[e];
 
         }
 
         private void SpinnerStorage_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
         {
-            
+
+            mTempInventories.Clear();
             Spinner spinner = (Spinner)sender;
             mStorage = mStorages[e.Position];
+
+            for (int i = 0; i < mInventories.Count(); i++)
+            {
+                if (mStorage.Id == mInventories[i].StorageId)
+                {
+                    mTempInventories.Add(mInventories[i]);
+                }
+            }
             string toast = string.Format("{0} selected", mStorage.Name);
             Toast.MakeText(this, toast, ToastLength.Long).Show();
-            this.mInventoryAdapterByStorage = new InventoryRecycleAdapterByStorage(this.mStorages[e.Position].Id, this.mInventories, this.mProducts, this);
+            this.mInventoryAdapterByStorage = new InventoryRecycleAdapterByStorage(this.mStorages[e.Position].Id, this.mTempInventories, this.mProducts, this);
             this.mInventoryAdapterByStorage.ItemClick += OnInventoryClick;
             this.mListViewInventory.SetAdapter(this.mInventoryAdapterByStorage);
-
         }
-        private void SpinnerCategory_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
-        {
-            Spinner spinner = (Spinner)sender;
-            mCategory = mCategories[e.Position];
-
-            string toast = string.Format("{0} selected", mCategory.Name);
-            Toast.MakeText(this, toast, ToastLength.Long).Show();
-            //LoadRecyclerAdapter(mStorage, mCategory);
-
-        }
+  
 
         
     }

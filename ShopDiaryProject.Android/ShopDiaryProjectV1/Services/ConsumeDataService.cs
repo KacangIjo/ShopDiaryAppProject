@@ -53,12 +53,12 @@ namespace ShopDiaryProjectV1.Services
 
         public bool Add(Consume data)
         {
+            string ConsumedDate = string.Format("{0}-{1}-{2}T00:00:00", data.DateConsumed.Year, data.DateConsumed.Month, data.DateConsumed.Day);
             var content = new FormUrlEncodedContent(new[]
             {
-                new KeyValuePair<string, string>("DateConsumed", data.DateConsumed.ToString()),
+                new KeyValuePair<string, string>("DateConsumed", ConsumedDate.ToString()),
                 new KeyValuePair<string, string>("Qty", data.Quantity.ToString()),
-                new KeyValuePair<string, string>("InventoryId", data.InventoryId.ToString()),
-                new KeyValuePair<string, string>("isConsumed",true.ToString())
+                new KeyValuePair<string, string>("InventoryId", data.InventoryId.ToString())
 
             });
 

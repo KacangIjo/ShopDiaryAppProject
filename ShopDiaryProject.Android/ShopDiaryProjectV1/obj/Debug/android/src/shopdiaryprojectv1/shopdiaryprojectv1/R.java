@@ -1882,6 +1882,7 @@ containing a value of this type.
         public static final int buttonMainRegister=0x7f0900d3;
         public static final int buttonPanel=0x7f090034;
         public static final int buttonRegisterOK=0x7f090093;
+        public static final int buttonSearchUse=0x7f09010b;
         public static final int buttonSendNotif=0x7f0900d7;
         public static final int buttonStorageAdd=0x7f0900f4;
         public static final int buttonStorageDelete=0x7f0900f6;
@@ -1953,8 +1954,7 @@ containing a value of this type.
         public static final int line1=0x7f0900a0;
         public static final int line3=0x7f0900a4;
         public static final int linearLayout1=0x7f09005a;
-        public static final int linearLayout10=0x7f090109;
-        public static final int linearLayout11=0x7f09010a;
+        public static final int linearLayout10=0x7f090108;
         public static final int linearLayout2=0x7f090059;
         public static final int linearLayout3=0x7f09006b;
         public static final int linearLayout4=0x7f09006f;
@@ -1987,6 +1987,7 @@ containing a value of this type.
         public static final int scrollIndicatorDown=0x7f09003e;
         public static final int scrollIndicatorUp=0x7f09003b;
         public static final int scrollView=0x7f09003c;
+        public static final int searchBoxUse=0x7f09010a;
         public static final int search_badge=0x7f09004e;
         public static final int search_bar=0x7f09004d;
         public static final int search_button=0x7f09004f;
@@ -2005,8 +2006,7 @@ containing a value of this type.
         public static final int spacer=0x7f090035;
         public static final int spinnerAddItemCategory=0x7f0900b4;
         public static final int spinnerAddItemStorage=0x7f0900b8;
-        public static final int spinnerUseCategorySelected=0x7f09010b;
-        public static final int spinnerUseStorageSelected=0x7f090108;
+        public static final int spinnerUseStorageSelected=0x7f090109;
         public static final int split_action_bar=0x7f090008;
         public static final int src_atop=0x7f09001f;
         public static final int src_in=0x7f090020;
