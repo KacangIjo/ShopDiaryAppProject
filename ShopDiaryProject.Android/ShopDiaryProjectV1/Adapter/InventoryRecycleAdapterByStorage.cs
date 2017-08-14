@@ -55,13 +55,6 @@ namespace ShopDiaryProjectV1.Adapter
                         if (mInventories[j].StorageId==StorageId)
                         {
                             var inv = this.mInventories[position];
-                            for (int i = 0; mProducts.Count()>i; i++)
-                            {
-                                if (inv.ProductId == mProducts[i].Id)
-                                {
-                                   
-                                }
-                            }
                             vh.ItemName.Text = inv.ItemName.ToString();
                             vh.ItemExpDate.Text = inv.ExpirationDate.ToString();
                             vh.ItemQuantity.Text = inv.Quantity.ToString();

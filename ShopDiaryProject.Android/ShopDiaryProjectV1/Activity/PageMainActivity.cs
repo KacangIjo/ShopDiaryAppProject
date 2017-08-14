@@ -185,9 +185,6 @@ namespace ShopDiaryProjectV1
             mListViewInventory = this.FindViewById<RecyclerView>(Resource.Id.recyclerViewInventoryMainPage);
             this.mListViewInventory.SetLayoutManager(new LinearLayoutManager(this));
             LoadInventoryData();
-
-
-
         }
 
         private async void LoadInventoryData()

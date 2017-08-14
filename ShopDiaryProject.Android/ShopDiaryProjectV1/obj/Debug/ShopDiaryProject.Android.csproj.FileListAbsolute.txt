@@ -610,10 +610,8 @@ D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Androi
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\System.Web.WebPages.Deployment.dll
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\ShopDiaryApp.API.pdb
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\ShopDiaryApp.API.dll.config
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\ShopDiaryApp.API.dll.mdb
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\ShopDiaryProject.Domain.pdb
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\ShopDiaryProject.Domain.dll.config
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\ShopDiaryProject.Domain.dll.mdb
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\Newtonsoft.Json.xml
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\Microsoft.Owin.xml
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\System.Web.Optimization.xml
@@ -689,6 +687,9 @@ D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Androi
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\obj\Debug\res\drawable\menucategory.png
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\obj\Debug\R.cs.flag
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\obj\Debug\uploadflags.txt
+D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\ShopDiaryProjectV1.dll.mdb
+D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\ShopDiaryApp.API.dll.mdb
+D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\ShopDiaryProject.Domain.dll.mdb
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\Antlr3.Runtime.dll.mdb
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\Java.Interop.dll.mdb
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\Microsoft.CSharp.dll.mdb
@@ -699,7 +700,6 @@ D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Androi
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\mscorlib.dll.mdb
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\ShopDiaryProject.EF.dll.mdb
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\ShopDiaryProject.Repository.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\ShopDiaryProjectV1.dll.mdb
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\System.ComponentModel.Composition.dll.mdb
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\System.ComponentModel.DataAnnotations.dll.mdb
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\bin\Debug\System.Core.dll.mdb

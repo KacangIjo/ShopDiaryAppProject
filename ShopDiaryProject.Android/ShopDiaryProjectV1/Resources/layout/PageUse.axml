@@ -45,57 +45,52 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="61.0dp"
-        android:id="@+id/linearLayout8"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout10"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center">
+        <TextView
+            android:text="Selected Storage"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView2"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text=":"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView6"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+        <Spinner
+            android:id="@+id/spinnerUseStorageSelected"
+            android:background="#3f3f3f"
+            android:layout_width="169.0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/linearLayout11"
         android:gravity="center"
-        android:layout_marginTop="10dp">
-        <LinearLayout
-            android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <EditText
+            android:layout_width="241.0dp"
+            android:layout_height="40dp"
+            android:id="@+id/searchBoxUseItem"
+            android:hint="Search Item..." />
+        <Button
+            android:text="Search!"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/linearLayout9"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp">
-            <TextView
-                android:text="Selected Storage"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:id="@+id/textView2"
-                android:gravity="center"
-                android:layout_width="160dp"
-                android:layout_height="wrap_content" />
-            <Spinner
-                android:id="@+id/spinnerUseStorageSelected"
-                android:background="#3f3f3f"
-                android:layout_width="match_parent"
-                android:layout_height="35dp" />
-        </LinearLayout>
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/linearLayout10"
-            android:minWidth="25px"
-            android:minHeight="25px" />
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/linearLayout11"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp">
-            <TextView
-                android:text="Selected Category"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:id="@+id/textView3"
-                android:layout_width="160dp"
-                android:layout_height="wrap_content"
-                android:gravity="center" />
-            <Spinner
-                android:id="@+id/spinnerUseCategorySelected"
-                android:background="#3f3f3f"
-                android:layout_width="match_parent"
-                android:layout_height="35dp" />
-        </LinearLayout>
+            android:id="@+id/buttonSearchUse" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
