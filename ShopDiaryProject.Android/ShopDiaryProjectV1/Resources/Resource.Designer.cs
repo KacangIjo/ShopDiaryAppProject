@@ -1991,9 +1991,6 @@ namespace ShopDiaryProjectV1
 			// aapt resource value: 0x7f090093
 			public const int buttonRegisterOK = 2131296403;
 			
-			// aapt resource value: 0x7f09010c
-			public const int buttonSearchUse = 2131296524;
-			
 			// aapt resource value: 0x7f0900d7
 			public const int buttonSendNotif = 2131296471;
 			
@@ -2015,14 +2012,14 @@ namespace ShopDiaryProjectV1
 			// aapt resource value: 0x7f0900fd
 			public const int buttonSummaryOk = 2131296509;
 			
-			// aapt resource value: 0x7f09010f
-			public const int buttonUseDelete = 2131296527;
-			
 			// aapt resource value: 0x7f09010e
-			public const int buttonUseUse = 2131296526;
+			public const int buttonUseDelete = 2131296526;
 			
-			// aapt resource value: 0x7f090112
-			public const int buttonZxing = 2131296530;
+			// aapt resource value: 0x7f09010d
+			public const int buttonUseUse = 2131296525;
+			
+			// aapt resource value: 0x7f090111
+			public const int buttonZxing = 2131296529;
 			
 			// aapt resource value: 0x7f0900aa
 			public const int cameraPreview = 2131296426;
@@ -2039,8 +2036,8 @@ namespace ShopDiaryProjectV1
 			// aapt resource value: 0x7f090026
 			public const int collapseActionView = 2131296294;
 			
-			// aapt resource value: 0x7f090111
-			public const int contentFrame = 2131296529;
+			// aapt resource value: 0x7f090110
+			public const int contentFrame = 2131296528;
 			
 			// aapt resource value: 0x7f09003a
 			public const int contentPanel = 2131296314;
@@ -2186,8 +2183,8 @@ namespace ShopDiaryProjectV1
 			// aapt resource value: 0x7f0900d5
 			public const int imageView2 = 2131296469;
 			
-			// aapt resource value: 0x7f090113
-			public const int imageViewZxing = 2131296531;
+			// aapt resource value: 0x7f090112
+			public const int imageViewZxing = 2131296530;
 			
 			// aapt resource value: 0x7f0900a6
 			public const int info = 2131296422;
@@ -2207,8 +2204,8 @@ namespace ShopDiaryProjectV1
 			// aapt resource value: 0x7f09005a
 			public const int linearLayout1 = 2131296346;
 			
-			// aapt resource value: 0x7f090108
-			public const int linearLayout10 = 2131296520;
+			// aapt resource value: 0x7f090109
+			public const int linearLayout10 = 2131296521;
 			
 			// aapt resource value: 0x7f09010a
 			public const int linearLayout11 = 2131296522;
@@ -2294,8 +2291,8 @@ namespace ShopDiaryProjectV1
 			// aapt resource value: 0x7f0900f7
 			public const int recyclerViewStorages = 2131296503;
 			
-			// aapt resource value: 0x7f090110
-			public const int recyclerViewUse = 2131296528;
+			// aapt resource value: 0x7f09010f
+			public const int recyclerViewUse = 2131296527;
 			
 			// aapt resource value: 0x7f09001e
 			public const int screen = 2131296286;
@@ -2308,9 +2305,6 @@ namespace ShopDiaryProjectV1
 			
 			// aapt resource value: 0x7f09003c
 			public const int scrollView = 2131296316;
-			
-			// aapt resource value: 0x7f09010b
-			public const int searchBoxUseItem = 2131296523;
 			
 			// aapt resource value: 0x7f09004e
 			public const int search_badge = 2131296334;
@@ -2366,8 +2360,11 @@ namespace ShopDiaryProjectV1
 			// aapt resource value: 0x7f0900b8
 			public const int spinnerAddItemStorage = 2131296440;
 			
-			// aapt resource value: 0x7f090109
-			public const int spinnerUseStorageSelected = 2131296521;
+			// aapt resource value: 0x7f09010b
+			public const int spinnerUseCategorySelected = 2131296523;
+			
+			// aapt resource value: 0x7f090108
+			public const int spinnerUseStorageSelected = 2131296520;
 			
 			// aapt resource value: 0x7f090008
 			public const int split_action_bar = 2131296264;
@@ -2564,8 +2561,8 @@ namespace ShopDiaryProjectV1
 			// aapt resource value: 0x7f0900f2
 			public const int textViewStoragestitik2 = 2131296498;
 			
-			// aapt resource value: 0x7f09010d
-			public const int textViewUseSelectedItem = 2131296525;
+			// aapt resource value: 0x7f09010c
+			public const int textViewUseSelectedItem = 2131296524;
 			
 			// aapt resource value: 0x7f09007a
 			public const int textViewsemiColomAddStorageArea = 2131296378;
