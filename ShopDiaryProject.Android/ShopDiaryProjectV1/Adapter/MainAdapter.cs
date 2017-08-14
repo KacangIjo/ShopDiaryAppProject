@@ -48,14 +48,15 @@ namespace ShopDiaryProjectV1.Adapter
                 if (vh != null)
                 {
                     var inv = this.mInventories[position];
-                    int i;
-                    for (i=0; i < mProducts.Count(); i++)
-                    {
-                        if (inv.ProductId == mProducts[i].Id )
-                        {
-                            vh.ItemName.Text = mProducts[i].Name;
-                        }
-                    }
+                    //int i;
+                    //for (i=0; i < mProducts.Count(); i++)
+                    //{
+                    //    if (inv.ProductId == mProducts[i].Id )
+                    //    {
+                    //        vh.ItemName.Text = mProducts[i].Name;
+                    //    }
+                    //}
+                    vh.ItemName.Text = inv.ItemName.ToString();
                     vh.ItemExpDate.Text = inv.ExpirationDate.ToString();
                     vh.ItemQuantity.Text = inv.Quantity.ToString();
                     vh.ItemView.Selected = (mSelectedPosition == position);

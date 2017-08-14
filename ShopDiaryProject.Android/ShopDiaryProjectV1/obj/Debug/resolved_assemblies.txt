@@ -38,6 +38,7 @@ D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Androi
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\obj\Debug\android\assets\Mono.CSharp.dll
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\obj\Debug\android\assets\System.Runtime.Serialization.dll
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\obj\Debug\android\assets\System.Resources.ResourceManager.dll
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\obj\Debug\android\assets\System.IO.dll
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\obj\Debug\android\assets\System.Runtime.Numerics.dll
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Android\ShopDiaryProjectV1\obj\Debug\android\assets\System.Numerics.dll

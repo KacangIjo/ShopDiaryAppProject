@@ -65,6 +65,7 @@ namespace ShopDiaryProjectV1.Services
                 new KeyValuePair<string, string>("StorageId", data.StorageId.ToString()),
                 new KeyValuePair<string, string>("IsDeleted", false.ToString()),
                 new KeyValuePair<string, string>("IsConsumed", false.ToString()),
+                new KeyValuePair<string, string>("ItemName", data.ItemName.ToString()),
 
             });
 

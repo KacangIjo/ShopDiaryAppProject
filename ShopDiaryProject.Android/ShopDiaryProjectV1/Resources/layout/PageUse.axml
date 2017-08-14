@@ -135,7 +135,9 @@
         android:id="@+id/linearLayout5"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
-        android:gravity="center">
+        android:gravity="center"
+        android:minWidth="25px"
+        android:minHeight="25px">
         <Button
             android:text="Use"
             android:layout_width="wrap_content"

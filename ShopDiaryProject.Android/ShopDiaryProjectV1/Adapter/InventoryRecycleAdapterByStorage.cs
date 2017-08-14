@@ -59,9 +59,10 @@ namespace ShopDiaryProjectV1.Adapter
                             {
                                 if (inv.ProductId == mProducts[i].Id)
                                 {
-                                    vh.ItemName.Text = mProducts[i].Name;
+                                   
                                 }
                             }
+                            vh.ItemName.Text = inv.ItemName.ToString();
                             vh.ItemExpDate.Text = inv.ExpirationDate.ToString();
                             vh.ItemQuantity.Text = inv.Quantity.ToString();
                             vh.ItemView.Selected = (mSelectedPosition == position);

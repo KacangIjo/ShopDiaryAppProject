@@ -203,14 +203,18 @@ namespace ShopDiaryProjectV1
                 if(mName.Text==mProducts[i].Name)
                 {
                     mProduct.Id = mProducts[i].Id;
+                    mProduct.Name = mProducts[i].Name;
                 }
             }
             Inventory newInventory = new Inventory()
             {
                 ExpirationDate = DateTemp,
                 StorageId = mStorage.Id,
+                ItemName = mName.Text,
                 Price = decimal.Parse(mPrice.Text),
                 ProductId = mProduct.Id
+                
+
             };
 
             var progressDialog = ProgressDialog.Show(this, "Please wait...", "Adding To Inventory...", true);

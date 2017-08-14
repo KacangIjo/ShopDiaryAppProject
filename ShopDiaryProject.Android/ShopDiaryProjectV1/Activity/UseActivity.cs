@@ -15,6 +15,8 @@ using ShopDiaryProject.Android.Models.ViewModels;
 using ShopDiaryProjectV1.Services;
 using ShopDiaryProject.Domain.Models;
 using System.Threading;
+using Android.Text;
+
 
 namespace ShopDiaryProjectV1
 {
@@ -87,7 +89,6 @@ namespace ShopDiaryProjectV1
 
             LoadAdapterData();
             LoadItemData();
-            
             mButtonUse.Click += (object sender, EventArgs args) =>
             {
                 AlertDialog.Builder alert = new AlertDialog.Builder(this);
@@ -154,10 +155,8 @@ namespace ShopDiaryProjectV1
                     Intent nextActivity = new Intent(this, typeof(PageMainActivity));
                     StartActivity(nextActivity);
             };
+            
         }
-
-
-
 
         private async void LoadItemData()
         {
@@ -183,12 +182,8 @@ namespace ShopDiaryProjectV1
             this.mInventories = await mInventoryDataService.GetAll();
             mInventories.Count();
             this.mProducts = await mProductDataService.GetAll();
-            //if (mInventories != null)
-            //{
-            //    this.mInventoryAdapter = new InventoryRecycleAdapter(this.mInventories, this.mProducts, this);
-            //    this.mInventoryAdapter.ItemClick += OnInventoryClick;
-            //    this.mListViewInventory.SetAdapter(this.mInventoryAdapter);
-            //}
+            //this.mInventories = mInventories.OrderBy(e => e.ItemName).ToList();
+            this.mInventories = mInventories.OrderByDescending(e => e.ItemName).ToList();
         }
 
 
@@ -257,5 +252,7 @@ namespace ShopDiaryProjectV1
             //LoadRecyclerAdapter(mStorage, mCategory);
 
         }
+
+        
     }
 }
