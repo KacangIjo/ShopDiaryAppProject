@@ -114,3 +114,5 @@ D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Reposi
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Repository\bin\Debug\ShopDiaryProject.Repository.dll.mdb
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Repository\obj\Debug\ShopDiaryProject.Repository.dll.mdb
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Repository\bin\Debug\ShopDiaryProject.Repository.dll.mdb
+D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Repository\obj\Debug\ShopDiaryProject.Repository.dll.mdb
+D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Repository\bin\Debug\ShopDiaryProject.Repository.dll.mdb

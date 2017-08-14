@@ -175,9 +175,17 @@ namespace ShopDiaryProjectV1
                 }
             }
             this.mInventoryAdapterByStorage = new InventoryRecycleAdapterByStorage(this.mStorage.Id, this.inventoriesForSearch, this.mProducts, this);
-            this.mInventoryAdapterByStorage.ItemClick += OnInventoryClick;
+            this.mInventoryAdapterByStorage.ItemClick += OnInventorySearchClick;
             this.mListViewInventory.SetAdapter(this.mInventoryAdapterByStorage);
         }
+
+        private void OnInventorySearchClick(object sender, int e)
+        {
+            mSelectedItem = e;
+            mTextSelectedItem.Text = inventoriesForSearch[e].ItemName;
+            mInventory = inventoriesForSearch[e];
+        }
+
         private async void LoadItemData()
         {
             mProgressDialog = ProgressDialog.Show(this, "Please wait...", "Getting data...", true);
