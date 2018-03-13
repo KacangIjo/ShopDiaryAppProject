@@ -18,7 +18,7 @@ namespace ShopDiaryProject.Domain.Models
 
         public Guid CategoryId { get; set; }
         public Category Category { get; set; }
-        public virtual ICollection<Wishlist> Wishlists { get; set; }
+        public virtual ICollection<Shopitem> ShopItems { get; set; }
         public Product()
         {
             Name = "";

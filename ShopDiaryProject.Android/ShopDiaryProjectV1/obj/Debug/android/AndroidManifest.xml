@@ -8,7 +8,6 @@
   <application android:label="ShopDiaryProjectV1" android:icon="@drawable/logoshopdiary" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="barcode" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
-    <activity android:label="StorageActivity" android:name="md5d06ba3291c07b39e0ba8c1cee19894e9.ShopListActivity" />
     <activity android:label="StorageActivity" android:name="md5d06ba3291c07b39e0ba8c1cee19894e9.CategoriesActivity" />
     <activity android:label="DrawerMenuActivity" android:name="md5d06ba3291c07b39e0ba8c1cee19894e9.DrawerMenuActivity" />
     <activity android:label="AddActivity" android:name="md5d06ba3291c07b39e0ba8c1cee19894e9.ItemAddActivity" />

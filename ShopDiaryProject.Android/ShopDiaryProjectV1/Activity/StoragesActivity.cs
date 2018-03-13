@@ -163,7 +163,6 @@ namespace ShopDiaryProjectV1
             Storage EditedStorage = new Storage()
             {
                 Name = e.Name,
-                Block = e.Block,
                 Area=e.Area,
                 Description = e.Description,
             };
@@ -191,7 +190,6 @@ namespace ShopDiaryProjectV1
             Storage newLoc = new Storage()
             {
                 Name = e.Name,
-                Block = e.Block,
                 Area = e.Area,
                 Description = e.Description,
              

@@ -14,7 +14,7 @@ namespace ShopDiaryProjectV1.Helper
 {
     public class UrlHelper
     {
-        private const string Domain_Url = "http://shopdiary.tk/";
+        private const string Domain_Url = "http://shopdiary.funcraftstudio.com/";
         private const string Base_Url = Domain_Url + "api/";
 
         #region Rests

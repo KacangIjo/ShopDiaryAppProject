@@ -90,6 +90,7 @@ public final class R {
         public static final int buttonMainLogin=0x7f07006c;
         public static final int buttonMainRegister=0x7f07006d;
         public static final int buttonRegisterOK=0x7f07003a;
+        public static final int buttonSearchUse=0x7f0700a5;
         public static final int buttonSendNotif=0x7f070071;
         public static final int buttonStorageAdd=0x7f07008e;
         public static final int buttonStorageDelete=0x7f070090;
@@ -134,8 +135,7 @@ public final class R {
         public static final int imageView2=0x7f07006f;
         public static final int imageViewZxing=0x7f0700ac;
         public static final int linearLayout1=0x7f070001;
-        public static final int linearLayout10=0x7f0700a3;
-        public static final int linearLayout11=0x7f0700a4;
+        public static final int linearLayout10=0x7f0700a2;
         public static final int linearLayout2=0x7f070000;
         public static final int linearLayout3=0x7f070012;
         public static final int linearLayout4=0x7f070016;
@@ -152,10 +152,10 @@ public final class R {
         public static final int recyclerViewLocations=0x7f070083;
         public static final int recyclerViewStorages=0x7f070091;
         public static final int recyclerViewUse=0x7f0700a9;
+        public static final int searchBoxUse=0x7f0700a4;
         public static final int spinnerAddItemCategory=0x7f07004e;
         public static final int spinnerAddItemStorage=0x7f070052;
-        public static final int spinnerUseCategorySelected=0x7f0700a5;
-        public static final int spinnerUseStorageSelected=0x7f0700a2;
+        public static final int spinnerUseStorageSelected=0x7f0700a3;
         public static final int textBoxMainPassword=0x7f07006b;
         public static final int textBoxUsername=0x7f07006a;
         public static final int textMainADDSTORAGE=0x7f07001e;

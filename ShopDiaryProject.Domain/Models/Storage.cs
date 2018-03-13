@@ -15,8 +15,6 @@ namespace ShopDiaryProject.Domain.Models
         public string Description { get; set; }
         [MaxLength(200)]
         public string Area { get; set; }
-        [MaxLength(200)]
-        public string Block { get; set; }
 
         public Guid LocationId { get; set; }
         public Location Location { get; set; }

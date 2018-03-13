@@ -17,8 +17,7 @@ namespace ShopDiaryProject.Domain.ViewModels
         public string Description { get; set; }
         [MaxLength(200)]
         public string Area { get; set; }
-        [MaxLength(200)]
-        public string Block { get; set; }
+
 
         public Guid LocationID { get; set; }
         public List<InventoryViewModel> Inventories { get; set; }
@@ -33,12 +32,23 @@ namespace ShopDiaryProject.Domain.ViewModels
             if (store !=null)
             {
                 ID = store.Id;
-                Name = store.Name;
-                Block = store.Block;
                 Area = store.Area;
                 Description = store.Description;
                 LocationID = store.LocationId;
             }
+        }
+    
+        public Storage ToModel()
+        {
+            return new Storage
+            {
+                Name = this.Name,
+                IsDeleted = this.IsDeleted,
+                Description = this.Description,
+                Area = this.Area,
+                LocationId = this.LocationID,
+                Id = this.Id == Guid.Empty ? Guid.NewGuid() : this.Id
+            };
         }
 
         #region view model lama
@@ -76,6 +86,6 @@ namespace ShopDiaryProject.Domain.ViewModels
         //    this.Block = s.Block;
         //    this.Id = s.Id;
         //}
-#endregion
+        #endregion
     }
 }

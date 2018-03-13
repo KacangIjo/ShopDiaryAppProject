@@ -73,10 +73,11 @@ namespace ShopDiaryProject.EF
         public virtual DbSet<Consume> Consumes { get; set; }
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
-        public virtual DbSet<Wishlist> Wishlists { get; set; }
-       
+        public virtual DbSet<Shopitem> Shopitems { get; set; }
+        public virtual DbSet<Shoplist> Shoplists { get; set; }
 
-       
+
+
     }
     
 

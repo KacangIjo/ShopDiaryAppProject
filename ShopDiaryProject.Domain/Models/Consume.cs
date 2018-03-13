@@ -10,8 +10,6 @@ namespace ShopDiaryProject.Domain.Models
     {
 
         public DateTime DateConsumed { get; set; }
-        public int Quantity { get; set; }
-        public Decimal Price { get; set; }
 
         public Boolean IsConsumed { get; set; }
 

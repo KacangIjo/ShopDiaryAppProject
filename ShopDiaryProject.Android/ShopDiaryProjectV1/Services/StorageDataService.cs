@@ -56,7 +56,6 @@ namespace ShopDiaryProjectV1.Services
             {
                 new KeyValuePair<string, string>("Name", data.Name.ToString()),
                 new KeyValuePair<string, string>("Area", data.Area.ToString()),
-                new KeyValuePair<string, string>("Block", data.Block.ToString()),
                 new KeyValuePair<string, string>("Description", data.Description.ToString()),
                 new KeyValuePair<string, string>("LocationId", data.LocationId.ToString()),
 
@@ -80,7 +79,6 @@ namespace ShopDiaryProjectV1.Services
             {
                 new KeyValuePair<string, string>("Name", data.Name.ToString()),
                 new KeyValuePair<string, string>("SeatSize", data.Area.ToString()),
-                new KeyValuePair<string, string>("SeatSize", data.Block.ToString()),
                 new KeyValuePair<string, string>("IsEmpty", data.Description.ToString()),
                 
 

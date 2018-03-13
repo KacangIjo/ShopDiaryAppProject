@@ -17,7 +17,7 @@ namespace ShopDiaryProjectV1.Models
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
-        public string Block { get; set; }
+
         public string Area { get; set; }
         public string Description { get; set; }
 
@@ -26,7 +26,7 @@ namespace ShopDiaryProjectV1.Models
         {
             Id = store.Id;
             Name = store.Name;
-            Block = store.Block;
+
             Area = store.Area;
             Description = store.Description;
         }

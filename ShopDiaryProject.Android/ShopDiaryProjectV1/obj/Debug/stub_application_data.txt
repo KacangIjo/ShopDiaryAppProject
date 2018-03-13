@@ -1,2 +1,0 @@
-android.app.Application
-ShopDiaryProjectV1.ShopDiaryProjectV1

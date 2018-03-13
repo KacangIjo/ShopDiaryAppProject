@@ -36,6 +36,18 @@ namespace ShopDiaryProject.Domain.ViewModels
                 UserID = loc.UserID;
             }
         }
+        public Location ToModel()
+        {
+            return new Location
+            {
+                Name = this.Name,
+                IsDeleted = this.IsDeleted,
+                Description = this.Description,
+                Address = this.Address,
+                UserID = this.UserID,
+                Id = this.Id == Guid.Empty ? Guid.NewGuid() : this.Id
+            };
+        }
 
         #region view model lama
         //[MaxLength(50)]

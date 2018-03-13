@@ -6,8 +6,8 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_NewBackgroundProfile>True</_NewBackgroundProfile>
-    <_PublishTargetUrl>C:\Users\D.Yeremia\Desktop\ShopDiary</_PublishTargetUrl>
+    <_NewBackgroundProfile>False</_NewBackgroundProfile>
+    <_PublishTargetUrl>D:\ShopDiary\Web</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="ApplicationInsights.config">
@@ -236,22 +236,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 14:50:24</publishTime>
     </File>
     <File Include="bin/ShopDiaryApp.API.dll">
-      <publishTime>08/09/2017 18:38:30</publishTime>
+      <publishTime>03/13/2018 16:07:33</publishTime>
     </File>
     <File Include="bin/ShopDiaryProject.Domain.dll">
-      <publishTime>08/09/2017 18:38:26</publishTime>
+      <publishTime>03/13/2018 14:27:05</publishTime>
     </File>
     <File Include="bin/ShopDiaryProject.Domain.dll.config">
       <publishTime>01/27/2017 16:39:10</publishTime>
     </File>
     <File Include="bin/ShopDiaryProject.EF.dll">
-      <publishTime>08/09/2017 18:38:26</publishTime>
+      <publishTime>03/13/2018 14:27:06</publishTime>
     </File>
     <File Include="bin/ShopDiaryProject.EF.dll.config">
       <publishTime>01/27/2017 16:17:46</publishTime>
     </File>
     <File Include="bin/ShopDiaryProject.Repository.dll">
-      <publishTime>08/09/2017 18:38:27</publishTime>
+      <publishTime>03/13/2018 14:27:07</publishTime>
     </File>
     <File Include="bin/ShopDiaryProject.Repository.dll.config">
       <publishTime>01/27/2017 16:30:01</publishTime>
@@ -530,7 +530,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/15/2016 18:38:53</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/09/2017 18:38:30</publishTime>
+      <publishTime>03/13/2018 15:58:36</publishTime>
     </File>
   </ItemGroup>
 </Project>

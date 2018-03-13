@@ -122,113 +122,36 @@ D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.EditInventory.resources
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll.mdb
-D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.mdb
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll.config
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.EF.pdb
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\EntityFramework.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\EntityFramework.SqlServer.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Microsoft.Owin.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Microsoft.Owin.Security.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Newtonsoft.Json.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Owin.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.Domain.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.Domain.pdb
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\ShopDiaryProject.Domain.dll.config
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\EntityFramework.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\EntityFramework.SqlServer.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Microsoft.Owin.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Microsoft.Owin.Security.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\bin\Debug\Newtonsoft.Json.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.csprojResolveAssemblyReference.cache
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.initialdatabase.resources
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.csproj.GenerateResource.Cache
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.pdb
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.addshop.resources

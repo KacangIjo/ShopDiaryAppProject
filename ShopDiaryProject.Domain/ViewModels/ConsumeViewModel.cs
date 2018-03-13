@@ -33,5 +33,9 @@ namespace ShopDiaryProject.Domain.ViewModels
             this.IsConsumed = c.IsConsumed;
             this.Id = c.Id;
         }
+        public ConsumeViewModel()
+        {
+
+        }
     }
 }

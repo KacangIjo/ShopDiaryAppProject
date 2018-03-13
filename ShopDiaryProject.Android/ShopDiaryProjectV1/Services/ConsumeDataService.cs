@@ -57,7 +57,6 @@ namespace ShopDiaryProjectV1.Services
             var content = new FormUrlEncodedContent(new[]
             {
                 new KeyValuePair<string, string>("DateConsumed", ConsumedDate.ToString()),
-                new KeyValuePair<string, string>("Qty", data.Quantity.ToString()),
                 new KeyValuePair<string, string>("InventoryId", data.InventoryId.ToString())
 
             });
@@ -79,7 +78,6 @@ namespace ShopDiaryProjectV1.Services
             var content = new FormUrlEncodedContent(new[]
             {
                 new KeyValuePair<string, string>("DateConsumed", data.DateConsumed.ToString()),
-                new KeyValuePair<string, string>("Qty", data.Quantity.ToString()),
                 new KeyValuePair<string, string>("InventoryId", data.InventoryId.ToString()),
 
             });

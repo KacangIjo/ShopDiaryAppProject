@@ -15,7 +15,7 @@ namespace ShopDiaryProject.Domain.ViewModels
         [MaxLength(250)]
         public string BarcodeId { get; set; }
 
-
+        
         //public Guid CategoryId { get; set; }
         //public Category Category { get; set; }
         //public ICollection<Wishlist> Wishlists { get; set; }
@@ -36,6 +36,10 @@ namespace ShopDiaryProject.Domain.ViewModels
             this.Name = p.Name;
             this.BarcodeId = p.BarcodeId;
             this.Id = p.Id;
+        }
+        public ProductViewModel()
+        {
+
         }
     }
 }

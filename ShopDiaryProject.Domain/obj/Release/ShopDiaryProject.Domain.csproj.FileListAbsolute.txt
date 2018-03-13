@@ -52,3 +52,30 @@ D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Domain
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Domain\obj\Release\ShopDiaryProject.Domain.csprojResolveAssemblyReference.cache
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Domain\obj\Release\ShopDiaryProject.Domain.dll
 D:\KP DANANG\Sidang\ShopDairyProject\ShopDiaryAppProject\ShopDiaryProject.Domain\obj\Release\ShopDiaryProject.Domain.pdb
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\ShopDiaryProject.Domain.dll.config
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\ShopDiaryProject.Domain.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\ShopDiaryProject.Domain.pdb
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\EntityFramework.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\EntityFramework.SqlServer.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Microsoft.Owin.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Microsoft.Owin.Security.Cookies.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Microsoft.Owin.Security.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Microsoft.Owin.Security.OAuth.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Newtonsoft.Json.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Owin.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\EntityFramework.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\EntityFramework.SqlServer.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Microsoft.Owin.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Microsoft.Owin.Security.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Microsoft.Owin.Security.Cookies.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Microsoft.Owin.Security.OAuth.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Release\Newtonsoft.Json.xml
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\obj\Release\ShopDiaryProject.Domain.csprojResolveAssemblyReference.cache
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\obj\Release\ShopDiaryProject.Domain.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\obj\Release\ShopDiaryProject.Domain.pdb

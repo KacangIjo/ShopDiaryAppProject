@@ -36,6 +36,10 @@ namespace ShopDiaryProject.Domain.ViewModels
                 this.Id = Guid.Parse(c.Id);
             }
         }
+        public UserViewModel()
+        {
+
+        }
 
     }
 }

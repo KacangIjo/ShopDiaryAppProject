@@ -92,20 +92,22 @@
     <Compile Include="Models\Inventory.cs" />
     <Compile Include="Models\ISoftDelete.cs" />
     <Compile Include="Models\Location.cs" />
+    <Compile Include="Models\Shopitem.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\Purchase.cs" />
+    <Compile Include="Models\Shoplist.cs" />
     <Compile Include="Models\Storage.cs" />
-    <Compile Include="Models\Wishlist.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\CategoryViewModel.cs" />
     <Compile Include="ViewModels\ConsumeViewModel.cs" />
     <Compile Include="ViewModels\InventoryViewModel.cs" />
     <Compile Include="ViewModels\LocationViewModel.cs" />
+    <Compile Include="ViewModels\ShopitemViewModel.cs" />
     <Compile Include="ViewModels\ProductViewModel.cs" />
     <Compile Include="ViewModels\PurchaseViewModel.cs" />
+    <Compile Include="ViewModels\ShoplistViewModel.cs" />
     <Compile Include="ViewModels\StorageViewModel.cs" />
     <Compile Include="ViewModels\UserViewModel.cs" />
-    <Compile Include="ViewModels\WishlistViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

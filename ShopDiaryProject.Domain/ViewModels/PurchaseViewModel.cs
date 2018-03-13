@@ -16,7 +16,10 @@ namespace ShopDiaryProject.Domain.ViewModels
 
         //public Guid InventoryId { get; set; }
         //public Inventory Inventory { get; set; }
+        public PurchaseViewModel()
+        {
 
+        }
         public Purchase ToModel()
         {
             return new Purchase

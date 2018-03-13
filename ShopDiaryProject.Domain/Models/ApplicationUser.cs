@@ -22,6 +22,7 @@ namespace ShopDiaryProject.Domain.Models
             // Add custom user claims here
             return userIdentity;
         }
+        public virtual ICollection<Category> Categories { get; set; }
 
         public virtual ICollection<Location> Locations { get; set; }
         

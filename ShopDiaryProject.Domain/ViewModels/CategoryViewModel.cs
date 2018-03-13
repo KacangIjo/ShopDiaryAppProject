@@ -16,13 +16,15 @@ namespace ShopDiaryProject.Domain.ViewModels
         public string Description { get; set; }
 
         //public ICollection<ProductViewModels> Products { get; set; }
-
+        public Guid UserId { get; set; }
         public Category ToModel()
         {
             return new Category
             {
                 Name = this.Name,
                 Description = this.Description,
+                UserId=this.UserId,
+                CreatedUserId=CreatedUserId,
                 Id = this.Id == Guid.Empty ? Guid.NewGuid() : this.Id
             };
         }
@@ -32,6 +34,10 @@ namespace ShopDiaryProject.Domain.ViewModels
             this.Name = c.Name;
             this.Description = c.Description;
             this.Id = c.Id;
+        }
+        public CategoryViewModel()
+        {
+
         }
 
     }

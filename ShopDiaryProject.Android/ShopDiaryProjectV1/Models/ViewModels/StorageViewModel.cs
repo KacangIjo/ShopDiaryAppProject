@@ -20,7 +20,7 @@ namespace ShopDiaryProject.Android.Models.ViewModels
             {
                 Id = (Id == Guid.Empty) ? Guid.NewGuid() : Id,
                 Name = Name,
-                Block = Block,
+
                 Area = Area,
                 Description = Description,
                 LocationId = LocationId
@@ -37,7 +37,7 @@ namespace ShopDiaryProject.Android.Models.ViewModels
             this.Name = s.Name;
             this.Description = s.Description;
             this.Area = s.Area;
-            this.Block = s.Block;
+
             this.LocationId = s.LocationId;
             
         }

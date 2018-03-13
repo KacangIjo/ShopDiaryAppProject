@@ -73,11 +73,15 @@
     <Compile Include="Location\IApplicationUserRepository.cs" />
     <Compile Include="Product\CategoryRepository.cs" />
     <Compile Include="Product\ICategoryRepository.cs" />
+    <Compile Include="Product\IShopitemRepository.cs" />
+    <Compile Include="Product\ShopitemRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Purchase\IInventoryRepository.cs" />
     <Compile Include="Purchase\InventoryRepository.cs" />
     <Compile Include="PurchaseRepository.cs" />
+    <Compile Include="Product\IShoplistRepository.cs" />
     <Compile Include="Storage\ILocationRepository.cs" />
+    <Compile Include="Product\ShoplistRepository.cs" />
     <Compile Include="Storage\LocationRepository.cs" />
   </ItemGroup>
   <ItemGroup>
