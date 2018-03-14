@@ -14,6 +14,8 @@ namespace ShopDiaryApp.API.Models.ViewModels
         public string Name { get; set; }
         public string Description { get; set; }
 
+        public Guid UserId { get; set; }
+
         public Category ToModel()
         {
             return new Category
@@ -21,6 +23,7 @@ namespace ShopDiaryApp.API.Models.ViewModels
                 Id = (Id == Guid.Empty) ? Guid.NewGuid() : Id,
                 Name = Name,
                 Description = Description,
+                UserId=UserId,
 
             };
         }
@@ -34,6 +37,7 @@ namespace ShopDiaryApp.API.Models.ViewModels
             this.Id = c.Id;
             this.Name = c.Name;
             this.Description = c.Description;
+            this.UserId = c.UserId;
         }
 
     }

@@ -10,7 +10,7 @@ namespace ShopDiaryProject.Domain.Models
     {
 
         public int Quantity { get; set; }
-        public decimal price { get; set; }
+        public decimal Price { get; set; }
 
         public Guid ProductId { get; set; }
         public Product product { get; set; }
@@ -20,7 +20,7 @@ namespace ShopDiaryProject.Domain.Models
         public Shopitem()
         {
             Quantity=0;
-            price = 0.0M;
+            Price = 0.0M;
         }
 
     }

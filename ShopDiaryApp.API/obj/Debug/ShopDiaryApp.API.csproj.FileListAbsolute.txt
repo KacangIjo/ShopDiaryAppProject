@@ -456,3 +456,5 @@ D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryApp.API\bin\System.Web.Http.Owi
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryApp.API\obj\Debug\ShopDiaryApp.API.csprojResolveAssemblyReference.cache
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryApp.API\obj\Debug\ShopDiaryApp.API.dll
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryApp.API\obj\Debug\ShopDiaryApp.API.pdb
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryApp.API\obj\Debug\ShopDiaryApp.API.dll.mdb
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryApp.API\bin\ShopDiaryApp.API.dll.mdb

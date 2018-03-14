@@ -252,6 +252,8 @@
     <Compile Include="Models\ViewModels\CategoryViewModel.cs" />
     <Compile Include="Models\ViewModels\ProductViewModel.cs" />
     <Compile Include="Models\ViewModels\InventoryViewModel.cs" />
+    <Compile Include="Models\ViewModels\ShopitemViewModel.cs" />
+    <Compile Include="Models\ViewModels\ShoplistViewModel.cs" />
     <Compile Include="Models\ViewModels\StorageViewModel.cs" />
     <Compile Include="Models\ViewModels\LocationViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -19,7 +19,7 @@ namespace ShopDiaryProject.Domain.Models
         public Product Product { get; set; }
         public Inventory()
         {
-        
+
         }
     }
 }

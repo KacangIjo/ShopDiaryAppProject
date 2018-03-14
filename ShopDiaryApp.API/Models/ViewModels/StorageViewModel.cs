@@ -11,7 +11,6 @@ namespace ShopDiaryApp.API.Models.ViewModels
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
-        public string Block { get; set; }
         public string Area { get; set; }
         public string Description { get; set; }
 
@@ -24,7 +23,6 @@ namespace ShopDiaryApp.API.Models.ViewModels
             {
                 Id = (Id == Guid.Empty) ? Guid.NewGuid() : Id,
                 Name = Name,
-                Area = Area,
                 Description = Description,
                 LocationId = LocationId
             };
@@ -39,7 +37,6 @@ namespace ShopDiaryApp.API.Models.ViewModels
             this.Id = s.Id;
             this.Name = s.Name;
             this.Description = s.Description;
-            this.Area = s.Area;
             this.LocationId = s.LocationId;
             
         }

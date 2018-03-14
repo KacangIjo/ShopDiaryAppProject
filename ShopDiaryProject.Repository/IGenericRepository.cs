@@ -17,6 +17,7 @@ namespace ShopDiaryProject.Repository
         bool Delete(T entity);
         bool Edit(T entity);
         bool Save();
+        int Count(Expression<Func<T, bool>> match);
 
         Task<bool> AddAsync(T entity);
         Task<bool> AddRangeAsync(IEnumerable<T> entity);
@@ -24,14 +25,4 @@ namespace ShopDiaryProject.Repository
         Task<bool> EditAsync(T entity);
         Task<bool> SaveAsync();
     }
-    //public interface IGenericRepository<T> where T : class
-    //{
-
-    //    IQueryable<T> GetAll();
-    //    T GetSingle(Guid id);
-    //    IQueryable<T> FindBy(Expression<Func<T, bool>> predicate);
-    //    bool Add(T entity);
-    //    void Delete(T entity);
-    //    void Edit(T entity);
-    //}
 }

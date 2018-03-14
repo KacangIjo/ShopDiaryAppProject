@@ -102,6 +102,18 @@
     <Compile Include="Migrations\201803131038246_addshop.Designer.cs">
       <DependentUpon>201803131038246_addshop.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803131254064_updatedatabasekarnaerror.cs" />
+    <Compile Include="Migrations\201803131254064_updatedatabasekarnaerror.Designer.cs">
+      <DependentUpon>201803131254064_updatedatabasekarnaerror.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803140401237_gantiviewmodel.cs" />
+    <Compile Include="Migrations\201803140401237_gantiviewmodel.Designer.cs">
+      <DependentUpon>201803140401237_gantiviewmodel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803140613049_updatecontroller.cs" />
+    <Compile Include="Migrations\201803140613049_updatecontroller.Designer.cs">
+      <DependentUpon>201803140613049_updatecontroller.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShopDairyDbContext.cs" />
@@ -122,6 +134,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803131038246_addshop.resx">
       <DependentUpon>201803131038246_addshop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803131254064_updatedatabasekarnaerror.resx">
+      <DependentUpon>201803131254064_updatedatabasekarnaerror.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803140401237_gantiviewmodel.resx">
+      <DependentUpon>201803140401237_gantiviewmodel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803140613049_updatecontroller.resx">
+      <DependentUpon>201803140613049_updatecontroller.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

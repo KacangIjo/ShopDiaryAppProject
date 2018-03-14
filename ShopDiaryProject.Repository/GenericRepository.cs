@@ -51,8 +51,18 @@ namespace ShopDiaryProject.Repository
                 this.Save();
                 return true;
             }
-            catch (Exception e)
+            catch (System.Data.Entity.Validation.DbEntityValidationException dbEx)
             {
+                foreach (var validationErrors in dbEx.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+
+                        string message = string.Format("{0}:{1}",
+                            validationErrors.Entry.Entity.ToString(),
+                            validationError.ErrorMessage);
+                    }
+                }
                 return false;
             }
         }
@@ -65,8 +75,18 @@ namespace ShopDiaryProject.Repository
                 this.Save();
                 return true;
             }
-            catch (Exception e)
+            catch (System.Data.Entity.Validation.DbEntityValidationException dbEx)
             {
+                foreach (var validationErrors in dbEx.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+
+                        string message = string.Format("{0}:{1}",
+                            validationErrors.Entry.Entity.ToString(),
+                            validationError.ErrorMessage);
+                    }
+                }
                 return false;
             }
         }
@@ -81,8 +101,18 @@ namespace ShopDiaryProject.Repository
                 this.Save();
                 return true;
             }
-            catch (Exception e)
+            catch (System.Data.Entity.Validation.DbEntityValidationException dbEx)
             {
+                foreach (var validationErrors in dbEx.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+
+                        string message = string.Format("{0}:{1}",
+                            validationErrors.Entry.Entity.ToString(),
+                            validationError.ErrorMessage);
+                    }
+                }
                 return false;
             }
         }
@@ -96,8 +126,18 @@ namespace ShopDiaryProject.Repository
                 this.Save();
                 return true;
             }
-            catch (Exception e)
+            catch (System.Data.Entity.Validation.DbEntityValidationException dbEx)
             {
+                foreach (var validationErrors in dbEx.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+
+                        string message = string.Format("{0}:{1}",
+                            validationErrors.Entry.Entity.ToString(),
+                            validationError.ErrorMessage);
+                    }
+                }
                 return false;
             }
         }
@@ -109,8 +149,18 @@ namespace ShopDiaryProject.Repository
                 _entities.SaveChanges();
                 return true;
             }
-            catch (Exception e)
+            catch (System.Data.Entity.Validation.DbEntityValidationException dbEx)
             {
+                foreach (var validationErrors in dbEx.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+
+                        string message = string.Format("{0}:{1}",
+                            validationErrors.Entry.Entity.ToString(),
+                            validationError.ErrorMessage);
+                    }
+                }
                 return false;
             }
         }
@@ -133,6 +183,11 @@ namespace ShopDiaryProject.Repository
             GC.SuppressFinalize(this);
         }
 
+        public int Count(Expression<Func<T, bool>> match)
+        {
+            return _entities.Set<T>().Count(match);
+        }
+
         public async virtual Task<bool> AddAsync(T entity)
         {
             try
@@ -141,8 +196,18 @@ namespace ShopDiaryProject.Repository
                 await this.SaveAsync();
                 return true;
             }
-            catch (Exception e)
+            catch (System.Data.Entity.Validation.DbEntityValidationException dbEx)
             {
+                foreach (var validationErrors in dbEx.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+
+                        string message = string.Format("{0}:{1}",
+                            validationErrors.Entry.Entity.ToString(),
+                            validationError.ErrorMessage);
+                    }
+                }
                 return false;
             }
         }
@@ -155,8 +220,18 @@ namespace ShopDiaryProject.Repository
                 await this.SaveAsync();
                 return true;
             }
-            catch (Exception e)
+            catch (System.Data.Entity.Validation.DbEntityValidationException dbEx)
             {
+                foreach (var validationErrors in dbEx.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+
+                        string message = string.Format("{0}:{1}",
+                            validationErrors.Entry.Entity.ToString(),
+                            validationError.ErrorMessage);
+                    }
+                }
                 return false;
             }
         }
@@ -171,8 +246,18 @@ namespace ShopDiaryProject.Repository
                 await this.SaveAsync();
                 return true;
             }
-            catch (Exception e)
+            catch (System.Data.Entity.Validation.DbEntityValidationException dbEx)
             {
+                foreach (var validationErrors in dbEx.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+
+                        string message = string.Format("{0}:{1}",
+                            validationErrors.Entry.Entity.ToString(),
+                            validationError.ErrorMessage);
+                    }
+                }
                 return false;
             }
         }
@@ -186,10 +271,24 @@ namespace ShopDiaryProject.Repository
                 await this.SaveAsync();
                 return true;
             }
-            catch (Exception e)
+            catch (System.Data.Entity.Validation.DbEntityValidationException dbEx)
             {
+                foreach (var validationErrors in dbEx.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+
+                        string message = string.Format("{0}:{1}",
+                            validationErrors.Entry.Entity.ToString(),
+                            validationError.ErrorMessage);
+                    }
+                }
                 return false;
             }
+            //catch (Exception e)
+            //{
+            //    return false;
+            //}
         }
 
         public async virtual Task<bool> SaveAsync()
@@ -199,8 +298,18 @@ namespace ShopDiaryProject.Repository
                 await _entities.SaveChangesAsync();
                 return true;
             }
-            catch (Exception e)
+            catch (System.Data.Entity.Validation.DbEntityValidationException dbEx)
             {
+                foreach (var validationErrors in dbEx.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+
+                        string message = string.Format("{0}:{1}",
+                            validationErrors.Entry.Entity.ToString(),
+                            validationError.ErrorMessage);
+                    }
+                }
                 return false;
             }
         }

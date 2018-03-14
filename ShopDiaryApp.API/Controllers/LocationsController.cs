@@ -16,8 +16,6 @@ using System.Threading.Tasks;
 
 namespace ShopDiaryApp.API.Controllers
 {
-    #region Location Controller baru
-    #endregion
 
     #region LocationController
     public class LocationsController : ApiController
@@ -50,8 +48,8 @@ namespace ShopDiaryApp.API.Controllers
         }
 
         // PUT: api/Categories/5
-        [HttpPost]
-        [ResponseType(typeof(LocationViewModel))]
+        [HttpPut]
+        [ResponseType(typeof(void))]
         public async Task<IHttpActionResult> PutLocation(Guid id, LocationViewModel location)
         {
             if (!ModelState.IsValid)
@@ -116,7 +114,22 @@ namespace ShopDiaryApp.API.Controllers
         }
 
         // DELETE: api/Categories/5
+        [HttpDelete]
         [ResponseType(typeof(Location))]
+
+        //public async Task<IHttpActionResult> DeleteLocation(Guid id)
+        //{
+        //    Location location = _locationRepository.GetSingle(e => e.Id == id);
+        //    if (location == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    await _locationRepository.DeleteAsync(location);
+
+
+        //    return Ok(location);
+        //}
         public IHttpActionResult DeleteLocation(Guid id)
         {
             Location location = _locationRepository.GetSingle(e => e.Id == id);

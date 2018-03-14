@@ -11,7 +11,7 @@ namespace ShopDiaryProject.Domain.ViewModels
     public class ShopitemViewModel : FullAuditedEntity
     {
         public int Quantity { get; set; }
-        public decimal price { get; set; }
+        public decimal Price { get; set; }
 
         public Guid ProductID{ get; set; }
         public Guid ShoplistID { get; set; }
@@ -21,7 +21,7 @@ namespace ShopDiaryProject.Domain.ViewModels
             return new Shopitem
             {
                 Quantity = this.Quantity,
-                price = this.price,
+                Price = this.Price,
                 CreatedDate = this.CreatedDate,
                 Id = this.Id == Guid.Empty ? Guid.NewGuid() : this.Id
             };
@@ -30,7 +30,7 @@ namespace ShopDiaryProject.Domain.ViewModels
         public ShopitemViewModel(Shopitem p)
         {
             this.Quantity = p.Quantity;
-            this.price = p.price;
+            this.Price = p.Price;
             this.CreatedDate = p.CreatedDate;
             this.Id = p.Id;
         }

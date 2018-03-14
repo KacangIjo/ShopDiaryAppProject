@@ -84,3 +84,5 @@ D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Repository\bin\Debug\Mi
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Repository\obj\Debug\ShopDiaryProject.Repository.csprojResolveAssemblyReference.cache
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Repository\obj\Debug\ShopDiaryProject.Repository.dll
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Repository\obj\Debug\ShopDiaryProject.Repository.pdb
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Repository\obj\Debug\ShopDiaryProject.Repository.dll.mdb
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Repository\bin\Debug\ShopDiaryProject.Repository.dll.mdb
