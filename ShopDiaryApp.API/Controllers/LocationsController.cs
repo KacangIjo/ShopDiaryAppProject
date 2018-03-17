@@ -49,7 +49,7 @@ namespace ShopDiaryApp.API.Controllers
 
         // PUT: api/Categories/5
         [HttpPut]
-        [ResponseType(typeof(void))]
+        [ResponseType(typeof(LocationViewModel))]
         public async Task<IHttpActionResult> PutLocation(Guid id, LocationViewModel location)
         {
             if (!ModelState.IsValid)

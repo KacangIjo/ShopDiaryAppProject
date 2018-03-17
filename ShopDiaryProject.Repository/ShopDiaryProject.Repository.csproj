@@ -58,6 +58,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Inventory\IInventorylogRepository.cs" />
+    <Compile Include="Inventory\InventorylogRepository.cs" />
     <Compile Include="IPurchaseRepository.cs" />
     <Compile Include="Consume\ConsumeRepository.cs" />
     <Compile Include="Consume\CategoryRepository.cs" />
@@ -76,8 +78,8 @@
     <Compile Include="Product\IShopitemRepository.cs" />
     <Compile Include="Product\ShopitemRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Purchase\IInventoryRepository.cs" />
-    <Compile Include="Purchase\InventoryRepository.cs" />
+    <Compile Include="Storage\Purchase\IInventoryRepository.cs" />
+    <Compile Include="Storage\Purchase\InventoryRepository.cs" />
     <Compile Include="PurchaseRepository.cs" />
     <Compile Include="Product\IShoplistRepository.cs" />
     <Compile Include="Storage\ILocationRepository.cs" />

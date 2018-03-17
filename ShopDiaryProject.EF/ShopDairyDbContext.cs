@@ -69,6 +69,7 @@ namespace ShopDiaryProject.EF
         public virtual DbSet<Location> Locations { get; set; }
         public virtual DbSet<Storage> Storages { get; set; }
         public virtual DbSet<Inventory> Inventories { get; set; }
+        public virtual DbSet<Inventorylog> Inventorylogs { get; set; }
         public virtual DbSet<Purchase> Purchases { get; set; }
         public virtual DbSet<Consume> Consumes { get; set; }
         public virtual DbSet<Product> Products { get; set; }

@@ -111,13 +111,4 @@ D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Debug\Micros
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Debug\Newtonsoft.Json.xml
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\obj\Debug\ShopDiaryProject.Domain.dll
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\obj\Debug\ShopDiaryProject.Domain.pdb
-D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\obj\Debug\ShopDiaryProject.Domain.dll.mdb
-D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Debug\ShopDiaryProject.Domain.dll.mdb
-D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\obj\Debug\ShopDiaryProject.Domain.dll.mdb
-D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Debug\ShopDiaryProject.Domain.dll.mdb
-D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\obj\Debug\ShopDiaryProject.Domain.dll.mdb
-D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Debug\ShopDiaryProject.Domain.dll.mdb
-D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\obj\Debug\ShopDiaryProject.Domain.dll.mdb
-D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Debug\ShopDiaryProject.Domain.dll.mdb
-D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\obj\Debug\ShopDiaryProject.Domain.dll.mdb
-D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\bin\Debug\ShopDiaryProject.Domain.dll.mdb
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.Domain\obj\Debug\ShopDiaryProject.Domain.csprojResolveAssemblyReference.cache

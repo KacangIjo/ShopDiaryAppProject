@@ -17,6 +17,7 @@ namespace ShopDiaryProject.Domain.Models
         public Storage Storage { get; set; }
         public Guid ProductId { get; set; }
         public Product Product { get; set; }
+        public virtual ICollection<Inventorylog> Inventorylogs { get; set; }
         public Inventory()
         {
 

@@ -113,3 +113,5 @@ D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Release\ShopDiar
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Release\ShopDiaryProject.EF.Migrations.updatedatabasekarnaerror.resources
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Release\ShopDiaryProject.EF.Migrations.gantiviewmodel.resources
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Release\ShopDiaryProject.EF.Migrations.updatecontroller.resources
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Release\ShopDiaryProject.EF.Migrations.addinventorylogmodel.resources
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Release\ShopDiaryProject.EF.Migrations.editinventorylogmodel.resources

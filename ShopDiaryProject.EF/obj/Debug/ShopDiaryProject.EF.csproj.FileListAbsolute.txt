@@ -158,3 +158,5 @@ D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryP
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.pdb
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.gantiviewmodel.resources
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.updatecontroller.resources
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.addinventorylogmodel.resources
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.editinventorylogmodel.resources

@@ -114,6 +114,14 @@
     <Compile Include="Migrations\201803140613049_updatecontroller.Designer.cs">
       <DependentUpon>201803140613049_updatecontroller.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803170446528_addinventorylogmodel.cs" />
+    <Compile Include="Migrations\201803170446528_addinventorylogmodel.Designer.cs">
+      <DependentUpon>201803170446528_addinventorylogmodel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803170454098_editinventorylogmodel.cs" />
+    <Compile Include="Migrations\201803170454098_editinventorylogmodel.Designer.cs">
+      <DependentUpon>201803170454098_editinventorylogmodel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShopDairyDbContext.cs" />
@@ -143,6 +151,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803140613049_updatecontroller.resx">
       <DependentUpon>201803140613049_updatecontroller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803170446528_addinventorylogmodel.resx">
+      <DependentUpon>201803170446528_addinventorylogmodel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803170454098_editinventorylogmodel.resx">
+      <DependentUpon>201803170454098_editinventorylogmodel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
