@@ -16,6 +16,14 @@ namespace ShopDiaryProjectV1.Class
     {
 
         private string _name;
+        private Guid _userId;
+
+        public Guid UserId
+        {
+            get { return _userId; }
+            set { _userId = value; }
+        }
+
         public List<Product> _products { get; set; }
 
         public string Name

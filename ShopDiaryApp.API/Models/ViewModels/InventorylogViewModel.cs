@@ -11,7 +11,7 @@ namespace ShopDiaryApp.API.Models.ViewModels
     public class InventorylogViewModel
     {
         public Guid Id { get; set; }
-        public string CreatedUserId { get; set; }
+        public string AddedUserId { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime? LogDate { get; set; }
         public string Description { get; set; }
@@ -22,7 +22,7 @@ namespace ShopDiaryApp.API.Models.ViewModels
             return new Inventorylog
             {
                 Id = (Id == Guid.Empty) ? Guid.NewGuid() : Id,
-                CreatedUserId = CreatedUserId,
+                AddedUserId = AddedUserId,
                 CreatedDate = CreatedDate,
                 LogDate = LogDate,
                 Description=Description,
@@ -37,7 +37,7 @@ namespace ShopDiaryApp.API.Models.ViewModels
         public InventorylogViewModel(Inventorylog i)
         {
             this.Id = i.Id;
-            this.CreatedUserId = i.CreatedUserId;
+            this.AddedUserId = i.AddedUserId;
             this.CreatedDate = i.CreatedDate;
             this.LogDate = i.LogDate;
             this.Description = i.Description;

@@ -18,7 +18,7 @@ namespace ShopDiaryProject.Domain.ViewModels
         [MaxLength(250)]
         public string Description { get; set; }
 
-        public Guid UserID { get; set; }
+        public List<UserLocationViewModel> UserLocations { get; set; }
         public List<StorageViewModel> Storages { get; set; }
         public LocationViewModel()
         {
@@ -33,7 +33,7 @@ namespace ShopDiaryProject.Domain.ViewModels
                 Name = loc.Name;
                 Address = loc.Address;
                 Description = loc.Description;
-                UserID = loc.UserID;
+                CreatedUserId = loc.CreatedUserId;
             }
         }
         public Location ToModel()
@@ -44,7 +44,7 @@ namespace ShopDiaryProject.Domain.ViewModels
                 IsDeleted = this.IsDeleted,
                 Description = this.Description,
                 Address = this.Address,
-                UserID = this.UserID,
+                CreatedUserId=this.CreatedUserId,
                 Id = this.Id == Guid.Empty ? Guid.NewGuid() : this.Id
             };
         }

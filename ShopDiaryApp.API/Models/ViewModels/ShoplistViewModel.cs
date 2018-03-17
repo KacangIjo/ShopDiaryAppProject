@@ -16,6 +16,7 @@ namespace ShopDiaryApp.API.Models.ViewModels
         public string Market { get; set; }
         [MaxLength(300)]
         public string Description { get; set; }
+        public string AddedUserId { get; set; }
 
 
        
@@ -27,6 +28,7 @@ namespace ShopDiaryApp.API.Models.ViewModels
                 Id = (Id == Guid.Empty) ? Guid.NewGuid() : Id,
                 Name = Name,
                 Description = Description
+
             };
         }
         public ShoplistViewModel()

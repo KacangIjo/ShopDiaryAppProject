@@ -17,7 +17,6 @@ namespace ShopDiaryProjectV1.Models
     {
         public Guid Id { get; set; }
         public DateTime? ExpirationDate { get; set; }
-        public int Quantity { get; set; }
         public Guid StorageId { get; set; }
         public InventoryViewModel()
         {
@@ -28,7 +27,6 @@ namespace ShopDiaryProjectV1.Models
         {
             Id = inv.Id;
             ExpirationDate = inv.ExpirationDate;
-            Quantity = inv.Quantity;
             StorageId = inv.StorageId;
         }
     }

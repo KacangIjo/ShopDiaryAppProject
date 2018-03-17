@@ -16,9 +16,8 @@ namespace ShopDiaryProject.Domain.Models
         [MaxLength(250)]
         public string Description { get; set; }
 
-        public Guid UserID { get; set; }
-        public ApplicationUser User { get; set; }
 
+        public virtual ICollection<UserLocation> UserLocations { get; set; }
         public virtual ICollection<Storage> Storages { get; set; }
         public Location()
         {

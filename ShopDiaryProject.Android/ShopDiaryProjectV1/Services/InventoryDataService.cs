@@ -58,7 +58,6 @@ namespace ShopDiaryProjectV1.Services
             {
                 
                 new KeyValuePair<string, string>("Id", data.Id.ToString()),
-                new KeyValuePair<string, string>("Quantity", data.Quantity.ToString()),
                 new KeyValuePair<string, string>("ExpirationDate", expirationDate),
                 new KeyValuePair<string, string>("Price", data.Price.ToString()),             
                 new KeyValuePair<string, string>("ProductId", data.ProductId.ToString()),
@@ -104,7 +103,6 @@ namespace ShopDiaryProjectV1.Services
             var content = new FormUrlEncodedContent(new[]
             {
                 new KeyValuePair<string, string>("Price", data.Price.ToString()),
-                new KeyValuePair<string, string>("Qty", data.Quantity.ToString()),
                 new KeyValuePair<string, string>("ExpDate", data.ExpirationDate.ToString()),
                 new KeyValuePair<string, string>("InventoryId", data.Id.ToString()),
 

@@ -18,7 +18,6 @@ namespace ShopDiaryProjectV1.Class
         
         private string _name;
         private string _area;
-        private string _block;
         private string _description;
         public int ID { get; set; }
         public List<Inventory> _inventories { get; set; }
@@ -28,11 +27,7 @@ namespace ShopDiaryProjectV1.Class
             get { return _description; }
             set { _description = value; }
         }
-        public string Block
-        {
-            get { return _block; }
-            set { _block = value; }
-        }
+
         public string Area
         {
             get { return _area; }
@@ -46,7 +41,7 @@ namespace ShopDiaryProjectV1.Class
         public Storage()
         {
         }
-        public Storage(string name, string area, string block, string description)
+        public Storage(string name, string area, string description)
         {
 
         }

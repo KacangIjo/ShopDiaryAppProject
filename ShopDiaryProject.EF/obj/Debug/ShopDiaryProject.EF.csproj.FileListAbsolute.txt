@@ -153,10 +153,14 @@ D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryP
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.initialdatabase.resources
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.addshop.resources
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.updatedatabasekarnaerror.resources
-D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.csproj.GenerateResource.Cache
-D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll
-D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.pdb
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.gantiviewmodel.resources
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.updatecontroller.resources
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.addinventorylogmodel.resources
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.editinventorylogmodel.resources
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.editinventorylogmodel1.resources
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.addRoleAndUserLocations.resources
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.csproj.GenerateResource.Cache
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.dll
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.pdb
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.editfullauditedentityaddsemicollon.resources
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Debug\ShopDiaryProject.EF.Migrations.addAddedUserIdFullAuditedEnntity.resources

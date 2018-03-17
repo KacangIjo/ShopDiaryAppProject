@@ -9,12 +9,12 @@ namespace ShopDiaryProject.Domain.ViewModels
 {
     public class InventoryViewModel:FullAuditedEntity
     {
-        public int Quantity { get; set; }
         public DateTime ExpirationDate { get; set; }
         public string ItemName { get; set; }
         public bool IsConsumed { get; set; }
-        public decimal Price { get; set; }
 
+
+        public Guid ProductId { get; set; }
         public Guid StorageId { get; set; }
   
         public Inventory ToModel()
@@ -25,9 +25,7 @@ namespace ShopDiaryProject.Domain.ViewModels
                 IsConsumed=this.IsConsumed,
                 IsDeleted=this.IsDeleted,
                 StorageId=this.StorageId,
-                Quantity = this.Quantity,
                 ExpirationDate = this.ExpirationDate,
-                Price = this.Price,
                 Id = this.Id == Guid.Empty ? Guid.NewGuid() : this.Id
             };
         }
@@ -37,9 +35,7 @@ namespace ShopDiaryProject.Domain.ViewModels
         {
             if (i != null)
             {
-                this.Quantity = i.Quantity;
                 this.ExpirationDate = i.ExpirationDate;
-                this.Price = Price;
                 this.Id = i.Id;
                 this.ItemName = i.ItemName;
                 this.StorageId = i.StorageId;

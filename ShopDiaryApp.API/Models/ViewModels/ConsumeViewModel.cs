@@ -13,7 +13,7 @@ namespace ShopDiaryApp.API.Models.ViewModels
         public Guid Id { get; set; }
         public DateTime DateConsumed { get; set; }
         public int Quantity { get; set; }
-
+        public string AddedUserId { get; set; }
         public Guid InventoryId { get; set; }
 
         public Consume ToModel()

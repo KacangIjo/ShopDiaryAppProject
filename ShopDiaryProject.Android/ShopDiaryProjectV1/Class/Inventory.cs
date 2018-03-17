@@ -16,7 +16,6 @@ namespace ShopDiaryProjectV1.Class
     {
         
         private DateTime _expDate;
-        private int _quantity;
         private int _id;
 
         public int Id
@@ -25,12 +24,6 @@ namespace ShopDiaryProjectV1.Class
             set { _id = value; }
         }
 
-
-        public int Quantity
-        {
-            get { return _quantity; }
-            set { _quantity = value; }
-        }
         public DateTime ExpDate
         {
             get { return _expDate; }
@@ -40,10 +33,9 @@ namespace ShopDiaryProjectV1.Class
         {
 
         }
-        public Inventory(int quantity, DateTime expdate)
+        public Inventory( DateTime expdate)
         {
             Id = Id + 1;
-            Quantity = quantity;
             ExpDate = expdate;
         }
 

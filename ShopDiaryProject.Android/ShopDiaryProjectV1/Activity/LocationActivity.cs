@@ -110,7 +110,7 @@ namespace ShopDiaryProjectV1
             mLocations= new List<LocationViewModel>();
             for (int i = 0; mLocationsByUser.Count > i; i++)
             {
-                if (mLocationsByUser[i].UserID == LoginActivity.StaticUserClass.ID)
+                if (mLocationsByUser[i].CreatedUserId == LoginActivity.StaticUserClass.ID.ToString())
                 {
                     mLocations.Add(mLocationsByUser[i]);
                 }
@@ -172,7 +172,7 @@ namespace ShopDiaryProjectV1
                 Name = e.Name,
                 Address = e.Address,
                 Description = e.Description,
-                UserID = mAuthorizedId
+                CreatedUserId = mAuthorizedId.ToString()
             };
             var progressDialog = ProgressDialog.Show(this, "Please wait...", "Adding Location...", true);
             new Thread(new ThreadStart(delegate

@@ -8,7 +8,6 @@ namespace ShopDiaryProject.Domain.Models
 {
     public class Inventory : FullAuditedEntity
     {
-        public int Quantity { get; set; }
         public DateTime ExpirationDate { get; set; }
         public string ItemName { get; set; }
         public decimal Price { get; set; }

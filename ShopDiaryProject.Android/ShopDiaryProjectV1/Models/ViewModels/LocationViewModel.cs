@@ -9,8 +9,8 @@ namespace ShopDiaryProject.Android.Models.ViewModels
         public string Name { get; set; }
         public string Address { get; set; }
         public string Description { get; set; }
+        public string CreatedUserId { get; set; }
 
-        public Guid UserID { get; set; }
        
 
         public Location ToModel()
@@ -21,7 +21,7 @@ namespace ShopDiaryProject.Android.Models.ViewModels
                 Name = Name,
                 Address = Address,
                 Description = Description,
-                UserID = UserID
+                CreatedUserId = CreatedUserId
             };
         }
         public LocationViewModel()
@@ -35,7 +35,7 @@ namespace ShopDiaryProject.Android.Models.ViewModels
             this.Name = l.Name;
             this.Description = l.Description;
             this.Address = l.Address;
-            this.UserID = l.UserID;
+            this.CreatedUserId = l.CreatedUserId;
             
         }
        

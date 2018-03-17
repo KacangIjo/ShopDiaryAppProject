@@ -13,9 +13,10 @@ namespace ShopDiaryApp.API.Models.ViewModels
         public string Name { get; set; }
         public string Address { get; set; }
         public string Description { get; set; }
+        public string AddedUserId { get; set; }
 
-        public Guid UserID { get; set; }
-       
+
+
 
         public Location ToModel()
         {
@@ -25,7 +26,7 @@ namespace ShopDiaryApp.API.Models.ViewModels
                 Name = Name,
                 Address = Address,
                 Description = Description,
-                UserID = UserID
+                AddedUserId = AddedUserId,
             };
         }
         public LocationViewModel()
@@ -39,7 +40,8 @@ namespace ShopDiaryApp.API.Models.ViewModels
             this.Name = l.Name;
             this.Description = l.Description;
             this.Address = l.Address;
-            this.UserID = l.UserID;
+            this.AddedUserId = l.AddedUserId;
+
             
         }
        

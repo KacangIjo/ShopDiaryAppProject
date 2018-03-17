@@ -79,7 +79,6 @@ namespace ShopDiaryProjectV1
             mEditTextBlock = view.FindViewById<EditText>(Resource.Id.editTextStorDetailBlock);
             mEditTextDescription = view.FindViewById<EditText>(Resource.Id.editTextStoreDetailDescription);
             mEditTextName.Text = mStorage.Name;
-            mEditTextBlock.Text = mStorage.Block;
             mEditTextArea.Text = mStorage.Area;
             mEditTextDescription.Text = mStorage.Description;
             mButtonOk.Click += BtnOk_Click;

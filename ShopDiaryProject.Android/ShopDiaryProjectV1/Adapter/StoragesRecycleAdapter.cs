@@ -49,7 +49,6 @@ namespace ShopDiaryProjectV1.Adapter
                     var storage = this.mStorages[position];
                     vh.StorageName.Text = storage.Name;
                     vh.StorageArea.Text = storage.Area;
-                    vh.StorageBlock.Text = storage.Block;
                     vh.StorageDescription.Text = storage.Description;
                     vh.ItemView.Selected = (mSelectedPosition == position);
                 }
@@ -74,8 +73,7 @@ namespace ShopDiaryProjectV1.Adapter
                 : base(itemView)
             {
                 this.StorageName = itemView.FindViewById<TextView>(Resource.Id.textViewAdapterStorageName);
-                this.StorageArea= itemView.FindViewById<TextView>(Resource.Id.textViewAdapterStorageArea);
-                this.StorageBlock = itemView.FindViewById<TextView>(Resource.Id.textViewAdapterStorageBlock);
+                this.StorageArea = itemView.FindViewById<TextView>(Resource.Id.textViewAdapterStorageArea);
                 this.StorageDescription = itemView.FindViewById<TextView>(Resource.Id.textViewAdapterStorageDescription);
 
                 itemView.Click += (sender, e) => listener(this.LayoutPosition);
@@ -83,7 +81,6 @@ namespace ShopDiaryProjectV1.Adapter
 
             public TextView StorageName { get; }
             public TextView StorageArea { get; }
-            public TextView StorageBlock { get; }
             public TextView StorageDescription { get; }
 
         }

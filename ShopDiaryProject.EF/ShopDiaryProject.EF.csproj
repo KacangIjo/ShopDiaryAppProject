@@ -122,6 +122,22 @@
     <Compile Include="Migrations\201803170454098_editinventorylogmodel.Designer.cs">
       <DependentUpon>201803170454098_editinventorylogmodel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803170900017_editinventorylogmodel1.cs" />
+    <Compile Include="Migrations\201803170900017_editinventorylogmodel1.Designer.cs">
+      <DependentUpon>201803170900017_editinventorylogmodel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803171047587_addRoleAndUserLocations.cs" />
+    <Compile Include="Migrations\201803171047587_addRoleAndUserLocations.Designer.cs">
+      <DependentUpon>201803171047587_addRoleAndUserLocations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803171159100_editfullauditedentityaddsemicollon.cs" />
+    <Compile Include="Migrations\201803171159100_editfullauditedentityaddsemicollon.Designer.cs">
+      <DependentUpon>201803171159100_editfullauditedentityaddsemicollon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803171213400_addAddedUserIdFullAuditedEnntity.cs" />
+    <Compile Include="Migrations\201803171213400_addAddedUserIdFullAuditedEnntity.Designer.cs">
+      <DependentUpon>201803171213400_addAddedUserIdFullAuditedEnntity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShopDairyDbContext.cs" />
@@ -157,6 +173,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803170454098_editinventorylogmodel.resx">
       <DependentUpon>201803170454098_editinventorylogmodel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803170900017_editinventorylogmodel1.resx">
+      <DependentUpon>201803170900017_editinventorylogmodel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803171047587_addRoleAndUserLocations.resx">
+      <DependentUpon>201803171047587_addRoleAndUserLocations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803171159100_editfullauditedentityaddsemicollon.resx">
+      <DependentUpon>201803171159100_editfullauditedentityaddsemicollon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803171213400_addAddedUserIdFullAuditedEnntity.resx">
+      <DependentUpon>201803171213400_addAddedUserIdFullAuditedEnntity.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

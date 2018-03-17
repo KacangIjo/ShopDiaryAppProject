@@ -115,3 +115,7 @@ D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Release\ShopDiar
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Release\ShopDiaryProject.EF.Migrations.updatecontroller.resources
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Release\ShopDiaryProject.EF.Migrations.addinventorylogmodel.resources
 D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Release\ShopDiaryProject.EF.Migrations.editinventorylogmodel.resources
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Release\ShopDiaryProject.EF.Migrations.editinventorylogmodel1.resources
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Release\ShopDiaryProject.EF.Migrations.addRoleAndUserLocations.resources
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Release\ShopDiaryProject.EF.Migrations.editfullauditedentityaddsemicollon.resources
+D:\ShopDiary\Sidang\ShopDiaryAppProject\ShopDiaryProject.EF\obj\Release\ShopDiaryProject.EF.Migrations.addAddedUserIdFullAuditedEnntity.resources

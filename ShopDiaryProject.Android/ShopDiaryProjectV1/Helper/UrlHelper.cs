@@ -21,11 +21,15 @@ namespace ShopDiaryProjectV1.Helper
         public const string Locations_Url = Base_Url + "Locations";
         public const string Storages_Url = Base_Url + "Storages";
         public const string Inventories_Url = Base_Url + "Inventories";
+        public const string Inventorylogs_Url = Base_Url + "Inventorylogs";
         public const string Categories_Url = Base_Url + "Categories";
         public const string Products_Url = Base_Url + "Products";
         public const string ShopList_Url = Base_Url + "ShopList";
         public const string Consumes_Url = Base_Url + "Consumes";
         public const string Purchases_Url = Base_Url + "Purchases";
+        public const string Shopitem_Url = Base_Url + "Shopitems";
+
+        public const string Shoplists_Url = Base_Url + "Shoplists";
         #endregion
 
         #region User

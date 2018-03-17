@@ -76,6 +76,8 @@ namespace ShopDiaryProject.EF
         public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<Shopitem> Shopitems { get; set; }
         public virtual DbSet<Shoplist> Shoplists { get; set; }
+        public virtual DbSet<UserLocation> UserLocations { get; set; }
+        public virtual DbSet<RoleLocation> RoleLocations { get; set; }
 
 
 

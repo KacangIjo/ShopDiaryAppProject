@@ -236,22 +236,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2016 14:50:24</publishTime>
     </File>
     <File Include="bin/ShopDiaryApp.API.dll">
-      <publishTime>03/17/2018 12:13:30</publishTime>
+      <publishTime>03/17/2018 19:14:08</publishTime>
     </File>
     <File Include="bin/ShopDiaryProject.Domain.dll">
-      <publishTime>03/17/2018 12:13:24</publishTime>
+      <publishTime>03/17/2018 19:14:02</publishTime>
     </File>
     <File Include="bin/ShopDiaryProject.Domain.dll.config">
       <publishTime>01/27/2017 16:39:10</publishTime>
     </File>
     <File Include="bin/ShopDiaryProject.EF.dll">
-      <publishTime>03/17/2018 12:13:25</publishTime>
+      <publishTime>03/17/2018 19:14:03</publishTime>
     </File>
     <File Include="bin/ShopDiaryProject.EF.dll.config">
       <publishTime>03/13/2018 18:44:20</publishTime>
     </File>
     <File Include="bin/ShopDiaryProject.Repository.dll">
-      <publishTime>03/17/2018 12:13:25</publishTime>
+      <publishTime>03/17/2018 19:14:03</publishTime>
     </File>
     <File Include="bin/ShopDiaryProject.Repository.dll.config">
       <publishTime>01/27/2017 16:30:01</publishTime>

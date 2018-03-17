@@ -57,7 +57,6 @@ namespace ShopDiaryProjectV1.Adapter
                         }
                     }
                     vh.ItemExpDate.Text = inv.ExpirationDate.ToString();
-                    vh.ItemQuantity.Text = inv.Quantity.ToString();
                     vh.ItemView.Selected = (mSelectedPosition == position);
                 }
             }

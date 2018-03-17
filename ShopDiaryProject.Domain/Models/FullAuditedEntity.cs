@@ -13,6 +13,7 @@ namespace ShopDiaryProject.Domain.Models
         public DateTime CreatedDate { get; set; }
         public DateTime? ModifiedDate { get; set; }
         public DateTime? DeletedDate { get; set; }
+        public string AddedUserId { get; set; }
         public string CreatedUserId { get; set; }
         public string ModifiedUserId { get; set; }
         public string DeletedUserID { get; set; }
