@@ -110,7 +110,7 @@ namespace ShopDiaryProjectV1
             mLocations= new List<LocationViewModel>();
             for (int i = 0; mLocationsByUser.Count > i; i++)
             {
-                if (mLocationsByUser[i].CreatedUserId == LoginActivity.StaticUserClass.ID.ToString())
+                if (mLocationsByUser[i].AddedUserId == LoginActivity.StaticUserClass.ID.ToString())
                 {
                     mLocations.Add(mLocationsByUser[i]);
                 }

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Android.App;
 using Android.Content;
 using Android.OS;
@@ -76,6 +75,7 @@ namespace ShopDiaryProjectV1.Services
 
                     var modelResult = JsonConvert.DeserializeObject<AccountViewModel>(result);
                     LoginHelper.Username = modelResult.Username;
+
                     LoginHelper.Token = modelResult.AccessToken;
                     return true;
                 }

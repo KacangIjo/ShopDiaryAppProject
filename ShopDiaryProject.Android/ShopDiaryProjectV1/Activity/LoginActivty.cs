@@ -22,6 +22,7 @@ namespace ShopDiaryProjectV1
     {
         public static Guid mAuthorizedUserId;
         private readonly AccountDataService mAccountDataService;
+
         private Button mBtnRegister;
         private Button mBtnLogin;
         private EditText mEmail;
@@ -29,6 +30,7 @@ namespace ShopDiaryProjectV1
         public static Class.User StaticUserClass = new Class.User();
         public static Class.Location StaticLocationClass = new Class.Location();
         public static Class.Storage StaticStorageClass = new Class.Storage();
+        public static Class.UserLocation StaticUserLocationClass = new Class.UserLocation();
         
         public LoginActivity()
         {
@@ -50,7 +52,7 @@ namespace ShopDiaryProjectV1
             mEmail = FindViewById<EditText>(Resource.Id.textBoxUsername);
             mPassword = FindViewById<EditText>(Resource.Id.textBoxMainPassword);
             mPassword.Text = "Ganteng@123";
-            mEmail.Text = "yeremia.bodo@gmail.com";
+            mEmail.Text = "balabalarebus@gmail.com";
             DateTime test = System.DateTime.Now;
 
             

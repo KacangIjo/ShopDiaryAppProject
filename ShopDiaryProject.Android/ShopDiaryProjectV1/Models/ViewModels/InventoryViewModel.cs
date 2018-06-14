@@ -11,6 +11,7 @@ namespace ShopDiaryProject.Android.Models.ViewModels
         public string ItemName { get; set; }
         public bool IsConsumed { get; set; }
         public decimal Price { get; set; }
+        public string AddedUserId { get; set; }
 
 
         public Guid ProductId { get; set; }
@@ -27,7 +28,8 @@ namespace ShopDiaryProject.Android.Models.ViewModels
                 Price=Price,
                 ProductId=ProductId,
                 StorageId=StorageId,
-                ItemName=ItemName
+                ItemName=ItemName,
+                AddedUserId=AddedUserId,
             };
         }
         public InventoryViewModel()
@@ -44,6 +46,7 @@ namespace ShopDiaryProject.Android.Models.ViewModels
             this.StorageId = i.StorageId;
             this.ItemName = i.ItemName;
             this.IsConsumed =i.IsConsumed;
+            this.AddedUserId = i.AddedUserId;
 
 
         }

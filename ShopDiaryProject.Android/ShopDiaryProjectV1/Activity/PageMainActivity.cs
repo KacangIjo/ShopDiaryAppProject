@@ -29,6 +29,9 @@ namespace ShopDiaryProjectV1
         public List<InventoryViewModel> mInventories;
         public List<ProductViewModel> mProducts;
         public List<StorageViewModel> mStorages;
+        public List<RoleLocationViewModel> mRoles;
+        public List<UserLocationViewModel> mUserLoc;
+
 
         private RecyclerView mListViewInventory;
 
